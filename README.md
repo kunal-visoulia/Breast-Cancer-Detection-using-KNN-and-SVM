@@ -38,6 +38,7 @@ Given labeled training data **(supervised learning)**, the algorithm outputs an 
 Can you draw a separating line in this plane?
 
 ![al-text](https://cdn-images-1.medium.com/max/800/1*C3j5m3E3KviEApHKleILZQ.png)
+
 if we plot in z-axis, a clear separation is visible and a line can be drawn .
 
 ![w = x² + y²](https://cdn-images-1.medium.com/max/800/1*FLolUnVUjqV0EGm3CYBPLw.png)
@@ -49,7 +50,8 @@ What in this case?
 
 ![a](https://cdn-images-1.medium.com/max/800/1*fv8DDZLaR0t7SO-W6tdDAg.png)
 
-![a](https://cdn-images-1.medium.com/max/600/1*1dwut8cWQ-39POHV48tv4w.png)  ![a](https://cdn-images-1.medium.com/max/600/1*gt_dkcA5p0ZTHjIpq1qnLQ.png)
+![a](https://cdn-images-1.medium.com/max/600/1*1dwut8cWQ-39POHV48tv4w.png)![a](https://cdn-images-1.medium.com/max/600/1*gt_dkcA5p0ZTHjIpq1qnLQ.png)
+
 Left one has some misclassification due to lower regularization value(*C parameter*). Higher value leads to results like right one.
 **_The Bias-Variance Trade-off_**
 >Large C: Lower bias, high variance.
