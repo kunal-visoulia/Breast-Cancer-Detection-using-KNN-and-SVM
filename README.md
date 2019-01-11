@@ -88,14 +88,14 @@ It is the Ratio of correctly predicted positive observations to the total predic
 ##### Precision = TP/TP+FP
 
 >Of all passengers that labeled as survived, how many actually survived? 
->High precision relates to the low false positive rate.
+>High precision relates to the low false positives (Benign cells classified as malignant).
 
 ### Recall
 It is the Ratio of correctly predicted positive observations to the all observations in actual class-yes. 
 ##### Recall = TP/TP+FN
 
 >Of all the passengers that truly survived, how many did we label? 
->"a measure of false negatives"
+>  "a measure of false negatives (malignant cell classified as benign)"
 
 ### F1-Score
 It is the Weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
