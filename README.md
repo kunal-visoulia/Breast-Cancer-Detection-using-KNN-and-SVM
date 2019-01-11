@@ -22,16 +22,19 @@ The performance measure reported by k-fold cross-validation is then the average 
 
 ### Precision
 ![alt text](https://blog.exsilio.com/wp-content/uploads/2016/09/table-blog.png)
-It is the Ratio of correctly predicted positive observations to the total predicted positive observations.
-###### Precision = TP/TP+FP
 
->Of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate.
+It is the Ratio of correctly predicted positive observations to the total predicted positive observations.
+##### Precision = TP/TP+FP
+
+>Of all passengers that labeled as survived, how many actually survived? 
+>High precision relates to the low false positive rate.
 
 ### Recall
 It is the Ratio of correctly predicted positive observations to the all observations in actual class-yes. 
 ##### Recall = TP/TP+FN
 
->Of all the passengers that truly survived, how many did we label? "a measure of false negatives"
+>Of all the passengers that truly survived, how many did we label? 
+>"a measure of false negatives"
 
 ### F1-Score
 It is the Weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
