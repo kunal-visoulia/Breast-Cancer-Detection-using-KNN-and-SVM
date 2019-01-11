@@ -7,8 +7,6 @@ https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsi
 ##  [K-nearest neighbors (KNN)](https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7)
 A **supervised** learning algorithm can be used for both classification and regression predictive problems.**Here, I used it for Benign or Malignant cancer classification.**
 
-![alt-text](http://scikit-learn.org/stable/tutorial/machine_learning_map/)
-
 KNN is a [**non-parametric**](https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/), [**lazy learning**](https://sebastianraschka.com/faq/docs/lazy-knn.html) algorithm.
 >When we say a technique is non-parametric , it means that it does not make any assumptions on the underlying data distribution. **Nonparametric methods are good when you have a lot of data and no prior knowledge, and when you don’t want to worry too much about choosing just the right features.**
 >KNN is also a lazy algorithm (as opposed to an eager algorithm).It does not use the training data points to do any generalization, i.e., it doesn’t learn a discriminative function from the training data but “memorizes” the training dataset instead. 
@@ -42,6 +40,7 @@ Can you draw a separating line in this plane?
 if we plot in z-axis, a clear separation is visible and a line can be drawn .
 
 ![w = x² + y²](https://cdn-images-1.medium.com/max/800/1*FLolUnVUjqV0EGm3CYBPLw.png)
+
 When we transform back this line to original plane, it maps to circular boundary as shown in image E. These transformations are called **_kernels_**.
 
 ![as](https://cdn-images-1.medium.com/max/800/1*NN5VCpVg9gPCLYrDl0YFYw.png)
@@ -53,8 +52,10 @@ What in this case?
 ![a](https://cdn-images-1.medium.com/max/600/1*1dwut8cWQ-39POHV48tv4w.png)![a](https://cdn-images-1.medium.com/max/600/1*gt_dkcA5p0ZTHjIpq1qnLQ.png)
 
 Left one has some misclassification due to lower regularization value(*C parameter*). Higher value leads to results like right one.
+
 **_The Bias-Variance Trade-off_**
 >Large C: Lower bias, high variance.
+
 >Small C: Higher bias, low variance.
 
 
