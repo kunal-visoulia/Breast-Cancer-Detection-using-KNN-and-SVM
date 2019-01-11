@@ -49,7 +49,7 @@ What in this case?
 
 ![a](https://cdn-images-1.medium.com/max/800/1*fv8DDZLaR0t7SO-W6tdDAg.png)
 
-![a](https://cdn-images-1.medium.com/max/600/1*1dwut8cWQ-39POHV48tv4w.png)![a](https://cdn-images-1.medium.com/max/600/1*gt_dkcA5p0ZTHjIpq1qnLQ.png)
+![a](https://cdn-images-1.medium.com/max/600/1*1dwut8cWQ-39POHV48tv4w.png)|![a](https://cdn-images-1.medium.com/max/600/1*gt_dkcA5p0ZTHjIpq1qnLQ.png)
 
 Left one has some misclassification due to lower regularization value(*C parameter*). Higher value leads to results like right one.
 
@@ -58,11 +58,7 @@ Left one has some misclassification due to lower regularization value(*C paramet
 
 >Small C: Higher bias, low variance.
 
-
-
-
-
-### [k-fold Cross-Validation](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation)
+## [k-fold Cross-Validation](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation)
 
 >there is still a risk of overfitting on the test set because the parameters can be tweaked until the estimator performs optimally. This way, knowledge about the test set can “leak” into the model and evaluation metrics no longer report on generalization performance. To solve this problem, yet another part of the dataset can be held out as a so-called “validation set”: training proceeds on the training set, after which evaluation is done on the validation set, and when the experiment seems to be successful, final evaluation can be done on the test set.
 >However, by partitioning the available data into three sets, we drastically reduce the number of samples which can be used for learning the model, and the results can depend on a particular random choice for the pair of (train, validation) sets.
