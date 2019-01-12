@@ -17,6 +17,7 @@ KNN is a [**non-parametric**](https://machinelearningmastery.com/parametric-and-
 KNN Algorithm is based on feature similarity: How closely out-of-sample features resemble our training set determines how we classify a given data point:
 
 ![alt-text](https://cdn-images-1.medium.com/max/800/0*Sk18h9op6uK9EpT8.)
+
 *Example of k-NN classification. The test sample (inside circle) should be classified either to the first class of blue squares or to the second class of red triangles. If k = 3 (outside circle) it is assigned to the second class because there are 2 triangles and only 1 square inside the inner circle. If, for example k = 5 it is assigned to the first class (3 squares vs. 2 triangles outside the outer circle).*
 
 Some pros and cons of KNN
@@ -33,6 +34,7 @@ Cons:
 
 ## [Support Vector Machine (SVM)](https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72)
 Given labeled training data **(supervised learning)**, The objective of the support vector machine algorithm is to find the hyperplane that has the maximum margin in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
+
 ![](https://cdn-images-1.medium.com/max/800/1*nUpw5agP-Vefm4Uinteq-A.png)
 
 If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane.
