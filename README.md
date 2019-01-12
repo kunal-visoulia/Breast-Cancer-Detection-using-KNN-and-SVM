@@ -32,9 +32,10 @@ Cons:
 - Prediction stage might be slow (with big N)
 
 ## [Support Vector Machine (SVM)](https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72)
-Given labeled training data **(supervised learning)**, the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
+Given labeled training data **(supervised learning)**, The objective of the support vector machine algorithm is to find the hyperplane that has the maximum margin in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
+![](https://cdn-images-1.medium.com/max/800/1*nUpw5agP-Vefm4Uinteq-A.png)
 
-![alt-text](https://cdn-images-1.medium.com/max/800/1*Sg6wjASoZHPphF10tcPZGg.png)
+If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane.
 
 Can you draw a separating line in this plane?
 
@@ -44,7 +45,7 @@ if we plot in z-axis, a clear separation is visible and a line can be drawn .
 
 ![w = x² + y²](https://cdn-images-1.medium.com/max/800/1*FLolUnVUjqV0EGm3CYBPLw.png)
 
-When we transform back this line to original plane, it maps to circular boundary as shown in image E. These transformations are called **_kernels_**.
+When we transform back this line to original plane, it maps to circular boundary as shown. 
 
 ![as](https://cdn-images-1.medium.com/max/800/1*NN5VCpVg9gPCLYrDl0YFYw.png)
 
@@ -63,6 +64,9 @@ Left one has some misclassification due to lower regularization value(*C paramet
 >Large C: Lower bias, high variance.
 
 >Small C: Higher bias, low variance.
+
+Compared to both [logistic regression](https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f) and neural networks, the SVM sometimes gives a cleaner, and sometimes more powerful way of learning complex non-linear functions.
+
 
 ## [k-fold Cross-Validation](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation)
 
