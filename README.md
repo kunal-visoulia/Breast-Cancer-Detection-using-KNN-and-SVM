@@ -1,6 +1,7 @@
 # Breast-Cancer-Detection-using-KNN-and-SVM
 
 # _RESULT_
+I built a system for Benign or Malignant cancer classification based on various features like cell shape, cell size, mitoses rate, etc
 On the given dataset, KNN performed better than SVM possibly signifying that the ***dataset is not linearly separable*** (there could be other reasons also, like, outliers in the data set). This conforms to what scatter plot of features from dataset showed.
 
 <img src="https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/10.png"  />
@@ -9,8 +10,11 @@ On the given dataset, KNN performed better than SVM possibly signifying that the
 Link for the dataset used
 https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
 
+**_DATA PREPROESSING_**
+I removed empty(?) values from dataset and replaced it with some very large negative value so it can be anored by training algorithm. I also removed id column to as it does not provide any usefull information.
+
 ##  [K-nearest neighbors (KNN)](https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7)
-A **supervised** learning algorithm can be used for both classification and regression predictive problems.**Here, I used it for Benign or Malignant cancer classification.**
+A **supervised** learning algorithm can be used for both classification and regression predictive problems.
 
 KNN is a [**non-parametric**](https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/), [**lazy learning**](https://sebastianraschka.com/faq/docs/lazy-knn.html) algorithm.
 >When we say a technique is non-parametric , it means that it does not make any assumptions on the underlying data distribution. **Nonparametric methods are good when you have a lot of data and no prior knowledge, and when you don’t want to worry too much about choosing just the right features.**
