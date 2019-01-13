@@ -62,7 +62,7 @@ What in this case?
 
 Left one has some misclassification due to lower regularization value(*C parameter*). Higher value leads to results like right one.
 
-**_The Bias-Variance Trade-off_**:High bias is underfitting and high variance is overfitting. We need to find a golden mean between these two.
+**_The Bias-Variance Trade-off_**:[High bias is underfitting and high variance is overfitting](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/). We need to find a golden mean between these two.
 
 >Large C: Lower bias, high variance.
 
