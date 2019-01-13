@@ -3,6 +3,8 @@
 # _RESULT_
 On the given dataset, KNN performed better than SVM possibly signifying that the ***dataset is not linearly separable*** (there could be other reasons also, like, outliers in the data set). This conforms to what scatter plot of features from dataset showed.
 
+<img src="https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/10.png"  />
+
 ### DATASET
 Link for the dataset used
 https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
