@@ -62,10 +62,15 @@ What in this case?
 
 Left one has some misclassification due to lower regularization value(*C parameter*). Higher value leads to results like right one.
 
-**_The Bias-Variance Trade-off_**
+**_The Bias-Variance Trade-off_**:High bias is underfitting and high variance is overfitting. We need to find a golden mean between these two.
+
 >Large C: Lower bias, high variance.
 
 >Small C: Higher bias, low variance.
+
+If a learning algorithm is **suffering from high bias**, getting more training data will not (by itself) help much. Adding features, Adding polynomial features, Increasing C: Fixes high bias.
+
+If a learning algorithm is **suffering from high variance**, Getting more training data, Trying small set of features and Decreasing C: Fixes high Variance.
 
 Compared to both [logistic regression](https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f) and neural networks, the SVM sometimes gives a cleaner, and sometimes more powerful way of learning complex non-linear functions.
 
