@@ -35,29 +35,29 @@ Cons:
 ## [Support Vector Machine (SVM)](https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72)
 Given labeled training data **(supervised learning)**, The objective of the support vector machine algorithm is to find the hyperplane that has the maximum margin in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
 
-![](https://cdn-images-1.medium.com/max/800/1*nUpw5agP-Vefm4Uinteq-A.png)
+![](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/2.png)
 
 If the number of input features is 2, then the hyperplane is just a line. If the number of input features is 3, then the hyperplane becomes a two-dimensional plane.
 
 Can you draw a separating line in this plane?
 
-![al-text](https://cdn-images-1.medium.com/max/800/1*C3j5m3E3KviEApHKleILZQ.png)
+![](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/3.png)
 
 if we plot in z-axis, a clear separation is visible and a line can be drawn .
 
-![w = x² + y²](https://cdn-images-1.medium.com/max/800/1*FLolUnVUjqV0EGm3CYBPLw.png)
+![](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/4.png)
 
 When we transform back this line to original plane, it maps to circular boundary as shown. 
 
-![as](https://cdn-images-1.medium.com/max/800/1*NN5VCpVg9gPCLYrDl0YFYw.png)
+![](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/5.png)
 
 What in this case?
 
-<img src="https://cdn-images-1.medium.com/max/800/1*fv8DDZLaR0t7SO-W6tdDAg.png" width="440" />
+<img src="https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/6.png" width="440" />
 
 <p float="left">
-  <img src="https://cdn-images-1.medium.com/max/600/1*1dwut8cWQ-39POHV48tv4w.png" width="440" />
-  <img src="https://cdn-images-1.medium.com/max/600/1*gt_dkcA5p0ZTHjIpq1qnLQ.png" width="440" /> 
+  <img src="https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/7.png" width="440" />
+  <img src="https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/8.png" width="440" /> 
 </p>
 
 Left one has some misclassification due to lower regularization value(*C parameter*). Higher value leads to results like right one.
@@ -93,7 +93,7 @@ The performance measure reported by k-fold cross-validation is then the average 
 
 ### Precision
 
-![alt text](https://blog.exsilio.com/wp-content/uploads/2016/09/table-blog.png)
+![alt text](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/9.png)
 
 It is the Ratio of correctly predicted positive observations to the total predicted positive observations.
 ##### Precision = TP/TP+FP
