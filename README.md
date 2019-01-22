@@ -53,7 +53,7 @@ if we plot in z-axis, a clear separation is visible and a line can be drawn .
 
 ![](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/4.png)
 
-When we transform back this line to original plane, it maps to circular boundary as shown. 
+When we transform back this line to original plane, it maps to circular boundary as shown. These transformations are called [**kernels**](https://towardsdatascience.com/kernel-function-6f1d2be6091).
 
 ![](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/5.png)
 
