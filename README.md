@@ -11,7 +11,7 @@ Link for the dataset used
 https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
 
 **_DATA PREPROESSING_**
-I removed empty(?) values from dataset and replaced it with some very large negative value so it can be anored by training algorithm. I also removed id column to as it does not provide any usefull information.
+I removed empty(?) values from dataset and replaced it with some very large negative value so it can be ignored by training algorithm. I also removed id column to as it does not provide any usefull information.
 
 ##  [K-nearest neighbors (KNN)](https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7)
 A **supervised** learning algorithm can be used for both classification and regression predictive problems.
