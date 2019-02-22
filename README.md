@@ -39,6 +39,9 @@ Cons:
 - Prediction stage might be slow (with big N)
 
 ## [Support Vector Machine (SVM)](https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72)
+https://blog.statsbot.co/support-vector-machines-tutorial-c1618e635e93
+hyperplane — a generalization of the two-dimensional line and three-dimensional plane to an arbitrary number of dimensions.
+
 Given labeled training data **(supervised learning)**, The objective of the support vector machine algorithm is to find the hyperplane that has the maximum margin in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
 
 ![](https://github.com/kunal-visoulia/Breast-Cancer-Detection-using-KNN-and-SVM/blob/master/images/2.png)
