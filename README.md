@@ -83,6 +83,19 @@ If a learning algorithm is **suffering from high variance**, Getting more traini
 
 Compared to both [logistic regression](https://towardsdatascience.com/support-vector-machine-vs-logistic-regression-94cc2975433f) and neural networks, the SVM sometimes gives a cleaner, and sometimes more powerful way of learning complex non-linear functions.
 
+##### SVM Advantages
+- SVM’s are very good when we have no idea on the data.
+- Works well with even unstructured and semi structured data like text, Images and trees.
+- The kernel trick is real strength of SVM. With an appropriate kernel function, we can solve any complex problem.
+- Unlike in neural networks, SVM is not solved for local optima.
+- It scales relatively well to high dimensional data.
+- SVM models have generalization in practice, the risk of overfitting is less in SVM.
+
+##### SVM Disadvantages
+- Choosing a “good” kernel function is not easy.
+- Long training time for large datasets.
+- Difficult to understand and interpret the final model, variable weights and individual impact.
+- Since the final model is not so easy to see, we can not do small calibrations to the model hence its tough to incorporate our business logic.
 
 ## [k-fold Cross-Validation](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation)
 https://machinelearningmastery.com/k-fold-cross-validation/
